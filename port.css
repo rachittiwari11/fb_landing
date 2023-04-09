@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: black;
+   
+}
+.left{
+    
+    width: 58%;
+    height: 100vh;
+}
+.right{
+  
+    width: 58%;
+    height: 100vh;
+}
+
+.home{
+    cursor:pointer;
+    color: white;
+    display: inline;
+    position: relative;
+    top: 0.4rem;
+    right: -7rem;
+}
+.about{
+    cursor:pointer;
+    color: white;
+    display: inline;
+    position: relative;
+    top: 0.4rem;
+    right: -12rem;
+}
+.work{
+    cursor:pointer;
+    color: white;
+    display: inline;
+    position: relative;
+    top: 0.4rem;
+    right: -17rem;
+  
+}
+.blog{
+    cursor:pointer;
+    color: white;
+    display: inline;
+    position: relative;
+    top: 0.4rem;
+    right: -22rem;
+}
+
+.about:hover{
+    color:orange
+}
+.blog:hover{
+    color:orange
+}
+.work:hover{
+    color:orange
+}
+.home:hover{
+    color:orange
+}
